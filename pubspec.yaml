@@ -1,0 +1,29 @@
+name: new_social_app
+description: A social video platform
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.15.0
+  firebase_auth: ^4.7.2
+  cloud_firestore: ^4.8.4
+  firebase_storage: ^11.2.5
+  firebase_messaging: ^14.6.5
+  firebase_database: ^10.2.4
+  video_player: ^2.7.0
+  file_picker: ^5.3.2
+  cached_network_image: ^3.2.3
+  provider: ^6.0.5
+  get_it: ^7.6.0
+  uuid: ^3.0.7
+  stripe_payment: ^1.1.4
+  share_plus: ^7.0.2
+  flutter_local_notifications: ^15.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
